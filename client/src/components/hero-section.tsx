@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useQuery } from "@tanstack/react-query";
-import { User, Download, Github, Code, Laptop, Mail, Phone } from "lucide-react";
+import { Download, Github, Code, Laptop, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Profile } from "@shared/schema";
 
@@ -61,8 +61,12 @@ export function HeroSection() {
             transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
             className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary to-secondary p-1"
           >
-            <div className="w-full h-full rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center">
-              <User className="w-16 h-16 text-slate-600 dark:text-slate-300" />
+            <div className="w-full h-full rounded-full overflow-hidden">
+              <img
+                src="/images/profile.jpg"
+                alt="Shiv Kumar Thakur"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
 
