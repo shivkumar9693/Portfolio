@@ -15,7 +15,9 @@ export default defineConfig({
     port: 5173,
   },
   build: {
-    outDir: "dist",
+    outDir: "dist",       // Output folder used by Vercel
     sourcemap: false,
+    emptyOutDir: true,    // Optional: cleans dist before building
   },
+  base: "/",              // Important: Ensures correct asset paths in production
 });
