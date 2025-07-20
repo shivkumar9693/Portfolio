@@ -31,12 +31,11 @@
 1. Go to vercel.com and sign up/login
 2. Click "New Project"
 3. Import your GitHub repository
-4. Vercel will auto-detect it's a Vite project
-5. Configure these settings:
-   - **Framework Preset**: Vite
-   - **Root Directory**: `./` (leave default)
-   - **Build Command**: `vite build`
-   - **Output Directory**: `client/dist`
+4. Configure these settings:
+   - **Framework Preset**: Other
+   - **Root Directory**: `client` (important!)
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
 
 ### Step 4: Environment Variables
 In Vercel dashboard, add these environment variables:
