@@ -1,0 +1,74 @@
+Got it! Here's your **final professional prompt** tailored for creating your **portfolio website using the MERN stack (MongoDB, Express.js, React, Node.js)** with animations, external links, and complete resume integration.
+
+---
+
+### ✅ **Professional Prompt: MERN Stack Portfolio Website**
+
+> Build a **professional, responsive, and animated personal portfolio website** using the **MERN stack (MongoDB, Express.js, React, Node.js)**.
+> The website must dynamically include **all content from my uploaded resume**, and integrate **GitHub, LeetCode, and GeeksforGeeks** profile links. Use **modern UI/UX principles** and smooth **animation effects** to make it visually appealing and interactive.
+
+---
+
+### 🧾 **Content to Extract from Resume (Uploaded to AI):**
+
+1. **Full Name & Role**
+2. **Professional Summary**
+3. **Skills (Languages, Tools, Frameworks)**
+4. **Projects** (Name, description, tech stack, GitHub links)
+5. **Work Experience** (Company, title, duration, details)
+6. **Education**
+7. **Achievements / Certifications**
+8. **Contact Info** (Email, Phone, Location)
+9. **Download Resume Button** (linked to file)
+
+---
+
+### 🌐 **External Profile Links:**
+
+* **GitHub:** \[Your GitHub URL]
+* **LeetCode:** \[Your LeetCode URL]
+* **GeeksforGeeks:** [https://www.geeksforgeeks.org/user/shivkumartces0/](https://www.geeksforgeeks.org/user/shivkumartces0/)
+
+---
+
+### 💡 **Features & Design Requirements:**
+
+#### 📱 Design:
+
+* Responsive on all devices
+* Modern, clean UI (use TailwindCSS or CSS modules)
+* Sticky navigation bar with smooth scrolling
+* Project cards with hover effects
+* Timeline layout for experience/education
+
+#### 🔁 Animations:
+
+* Use **Framer Motion** or **AOS.js** for smooth animations (on scroll, hover, and entrance)
+* Typewriter effect or animated headers (optional)
+
+#### 🌙 Theme:
+
+* Light/Dark mode toggle (optional but preferred)
+
+#### 📂 Tech Stack:
+
+* **Frontend:** React.js with functional components and hooks
+* **Backend:** Node.js + Express.js API to serve profile/project data (from MongoDB or JSON)
+* **Database:** MongoDB (or you can keep static JSON data for now)
+* **Styling:** TailwindCSS (preferred) or Bootstrap
+* **Deployment:** Ready for Vercel (frontend) and Render/Railway (backend) if split
+
+---
+
+### ✅ Additional Notes:
+
+* All content should be modular and reusable (components, routes)
+* Resume content should be dynamically rendered from backend or JSON
+* Include working contact form (using backend API or third-party like EmailJS)
+* All external links must open in new tabs
+
+---
+
+You can paste this prompt into any AI-based code generator, GitHub Copilot, or give it to a developer to build your complete MERN portfolio.
+
+Would you like me to start generating the **full codebase** for this MERN portfolio (step by step or in a ZIP-ready format)?
